@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Navel Fauna</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  <h1>Navel Fauna Dashboard</h1>
+  
+  <select id="selDataset" onchange="dropdownChange(this.value)">
+  </select>
+
+  <div id="demographics"></div>
+
+  <div id="plot"></div>
+
+  <div id="bubble_plot"></div>
+
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="static/js/logic.js"></script>
+</body>
+</html>
